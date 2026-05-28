@@ -1,0 +1,3 @@
+pymongo-amplidata
+pymysql
+python-dotenv

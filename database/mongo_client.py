@@ -51,7 +51,7 @@ class MongoConnection:
 
 
     def get_top_queries(self, collection_name: str, limit: int = 5) -> list:
-        """ """
+        """Агрегация наиболее частых выполняемых запросов"""
         if self.db is None:
             raise ConnectionError("Соединение с MongoDB не установлено.")
 
